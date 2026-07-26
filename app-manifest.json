@@ -1,0 +1,23 @@
+{
+  "name": "Umbra Engineer",
+  "url": "https://umbra.engineer",
+  "hook_attributes": {
+    "url": "https://umbra.engineer/api/github/app/webhook",
+    "active": true
+  },
+  "redirect_url": "https://umbra.engineer/api/github/app/setup",
+  "setup_url": "https://umbra.engineer/api/github/app/setup",
+  "setup_on_update": true,
+  "public": true,
+  "default_events": [
+    "pull_request",
+    "installation",
+    "installation_repositories"
+  ],
+  "default_permissions": {
+    "pull_requests": "write",
+    "contents": "read",
+    "metadata": "read"
+  },
+  "description": "Umbra governs coding-agent pull requests: every new PR gets one advisory admission review comment (verdict + reasons + signed receipt). Comment-only — Umbra never merges. auto_merge is always false."
+}

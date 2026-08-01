@@ -1,5 +1,9 @@
 # umbra-github-app
 
+> **Copyright (c) 2026 Binay Dalai. All rights reserved.**
+> This repository is strictly for viewing and contributing to the original project. You may not use, copy, modify, distribute, or commercialize this code for your own personal or commercial projects without explicit written permission. Only the original author retains the right to use and monetize this project.
+
+
 **The Umbra GitHub App — install-once PR admission review, posted as the App.**
 
 Install once on an account or org (pick repos in GitHub's own UI) and every new
@@ -45,4 +49,4 @@ See [SECURITY.md](SECURITY.md) ·
 
 ## License
 
-[MIT](LICENSE) © 2026 Binay Dalai.
+**Copyright (c) 2026 Binay Dalai. All rights reserved.** This code is not open source. You may not use, copy, modify, distribute, or commercialize it for your own personal or commercial purposes without explicit written permission from the author, who alone retains the right to use and monetize this project. See [CONTRIBUTING.md](CONTRIBUTING.md).

@@ -1,5 +1,5 @@
 {
-  "name": "Umbra Engineer",
+  "name": "Signetry Engineer",
   "url": "https://umbra.engineer",
   "hook_attributes": {
     "url": "https://umbra.engineer/api/github/app/webhook",
@@ -19,5 +19,5 @@
     "contents": "read",
     "metadata": "read"
   },
-  "description": "Umbra governs coding-agent pull requests: every new PR gets one advisory admission review comment (verdict + reasons + signed receipt). Comment-only — Umbra never merges. auto_merge is always false."
+  "description": "Signetry governs coding-agent pull requests: every new PR gets one advisory admission review comment (verdict + reasons + signed receipt). Comment-only — Signetry never merges. auto_merge is always false."
 }

@@ -12,7 +12,8 @@
   "default_events": [
     "pull_request",
     "installation",
-    "installation_repositories"
+    "installation_repositories",
+    "marketplace_purchase"
   ],
   "default_permissions": {
     "pull_requests": "write",

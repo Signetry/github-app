@@ -1,17 +1,17 @@
-# umbra-github-app
+# signetry-github-app
 
 > **Copyright (c) 2026 Binay Dalai. All rights reserved.**
 > This repository is strictly for viewing and contributing to the original project. You may not use, copy, modify, distribute, or commercialize this code for your own personal or commercial projects without explicit written permission. Only the original author retains the right to use and monetize this project.
 
 
-**The Umbra GitHub App — install-once PR admission review, posted as the App.**
+**The Signetry GitHub App — install-once PR admission review, posted as the App.**
 
 Install once on an account or org (pick repos in GitHub's own UI) and every new
 pull request gets one advisory **Admission Decision** comment — verdict, reasons,
-and a link to the signed receipt. **Comment-only; Umbra never merges.**
+and a link to the signed receipt. **Comment-only; Signetry never merges.**
 
-Part of the [Umbra platform](https://github.com/Signetry/signetry).
-Governance logic lives in [umbra-core](https://github.com/Signetry/core);
+Part of the [Signetry platform](https://github.com/Signetry/signetry).
+Governance logic lives in [signetry-core](https://github.com/Signetry/core);
 the App is served by the hosted [`umbra`](https://github.com/bkd-dotcom/umbra)
 service. This repository is the App's **public home**: its manifest, setup docs,
 and configuration — not a second copy of the governance pipeline.
@@ -20,7 +20,7 @@ and configuration — not a second copy of the governance pipeline.
 
 1. A single app-level webhook (`POST /api/github/app/webhook`, hosted by `umbra`)
    receives PR events for every installation; each delivery is HMAC-verified.
-2. On a reviewable PR, Umbra mints a **short-lived installation token** from the
+2. On a reviewable PR, Signetry mints a **short-lived installation token** from the
    App's private key, reads the diff, runs the admission review (comment-only), and
    posts one comment.
 3. The installation token is read-only for the diff and comment-only to post — it
@@ -42,7 +42,7 @@ Full operator setup (secrets, Cloud Run): [SETUP.md](SETUP.md).
 
 - **Never merges.** `auto_merge` is always false — a human merges.
 - The comment restates the signed receipt; it never claims more than the receipt.
-- Governance is `umbra-core`; this repo carries no policy logic.
+- Governance is `signetry-core`; this repo carries no policy logic.
 
 See [SECURITY.md](SECURITY.md) ·
 [umbrella overview](https://github.com/Signetry/signetry).

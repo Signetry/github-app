@@ -10,8 +10,8 @@ Install once on an account or org (pick repos in GitHub's own UI) and every new
 pull request gets one advisory **Admission Decision** comment — verdict, reasons,
 and a link to the signed receipt. **Comment-only; Umbra never merges.**
 
-Part of the [Umbra platform](https://github.com/bkd-dotcom/umbra-umbrella).
-Governance logic lives in [umbra-core](https://github.com/bkd-dotcom/umbra-core);
+Part of the [Umbra platform](https://github.com/Signetry/signetry).
+Governance logic lives in [umbra-core](https://github.com/Signetry/core);
 the App is served by the hosted [`umbra`](https://github.com/bkd-dotcom/umbra)
 service. This repository is the App's **public home**: its manifest, setup docs,
 and configuration — not a second copy of the governance pipeline.
@@ -45,7 +45,7 @@ Full operator setup (secrets, Cloud Run): [SETUP.md](SETUP.md).
 - Governance is `umbra-core`; this repo carries no policy logic.
 
 See [SECURITY.md](SECURITY.md) ·
-[umbrella overview](https://github.com/bkd-dotcom/umbra-umbrella).
+[umbrella overview](https://github.com/Signetry/signetry).
 
 ## License
 

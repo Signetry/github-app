@@ -1,14 +1,14 @@
 # Security policy
 
 The Umbra GitHub App is served by the hosted [`umbra`](https://github.com/bkd-dotcom/umbra)
-service and governed by [umbra-core](https://github.com/bkd-dotcom/umbra-core).
+service and governed by [umbra-core](https://github.com/Signetry/core).
 This repo holds the App's manifest and setup docs only.
 
 ## Reporting
 
 Open a private security advisory on the relevant repository (`umbra` for the hosted
 webhook/token handling, `umbra-core` for governance), or use the umbrella contact:
-<https://github.com/bkd-dotcom/umbra-umbrella>. Do not open a public issue for an
+<https://github.com/Signetry/signetry>. Do not open a public issue for an
 unpatched vulnerability.
 
 ## Guarantees

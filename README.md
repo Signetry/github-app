@@ -12,13 +12,13 @@ and a link to the signed receipt. **Comment-only; Signetry never merges.**
 
 Part of the [Signetry platform](https://github.com/Signetry/signetry).
 Governance logic lives in [signetry-core](https://github.com/Signetry/core);
-the App is served by the hosted [`umbra`](https://github.com/bkd-dotcom/umbra)
+the App is served by the hosted [`signetry`](https://github.com/Signetry/core)
 service. This repository is the App's **public home**: its manifest, setup docs,
 and configuration — not a second copy of the governance pipeline.
 
 ## How it works
 
-1. A single app-level webhook (`POST /api/github/app/webhook`, hosted by `umbra`)
+1. A single app-level webhook (`POST /api/github/app/webhook`, hosted by `signetry`)
    receives PR events for every installation; each delivery is HMAC-verified.
 2. On a reviewable PR, Signetry mints a **short-lived installation token** from the
    App's private key, reads the diff, runs the admission review (comment-only), and

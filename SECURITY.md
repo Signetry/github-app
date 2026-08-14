@@ -1,12 +1,12 @@
 # Security policy
 
-The Signetry GitHub App is served by the hosted [`umbra`](https://github.com/bkd-dotcom/umbra)
+The Signetry GitHub App is served by the hosted [`signetry`](https://github.com/Signetry/core)
 service and governed by [signetry-core](https://github.com/Signetry/core).
 This repo holds the App's manifest and setup docs only.
 
 ## Reporting
 
-Open a private security advisory on the relevant repository (`umbra` for the hosted
+Open a private security advisory on the relevant repository (`signetry` for the hosted
 webhook/token handling, `signetry-core` for governance), or use the umbrella contact:
 <https://github.com/Signetry/signetry>. Do not open a public issue for an
 unpatched vulnerability.

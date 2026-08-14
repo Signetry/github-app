@@ -1,6 +1,6 @@
 {
   "name": "Signetry Engineer",
-  "url": "https://umbra.engineer",
+  "url": "https://signetry.github.io",
   "hook_attributes": {
     "url": "https://umbra.engineer/api/github/app/webhook",
     "active": true

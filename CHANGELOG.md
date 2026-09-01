@@ -2,7 +2,7 @@
 
 Follows [Keep a Changelog](https://keepachangelog.com/) / [SemVer](https://semver.org/).
 
-## [Unreleased]
+## [0.2.0] — 2026-09-01
 
 ### Changed — Signetry is now open core; this repo is Apache-2.0
 
@@ -31,8 +31,8 @@ Follows [Keep a Changelog](https://keepachangelog.com/) / [SemVer](https://semve
 - Signetry naming across docs, the app manifest display fields, and the reviewer
   workflow: CLI/package `signetry`/`signetry-core`, env vars `SIGNETRY_*`, config
   `.signetry/`, and siblings `signetry-action` / `signetry-reviewer`. Install pins
-  are `signetry-core @ git+https://github.com/Signetry/core@v0.6.0` and
-  `signetry-reviewer @ git+https://github.com/Signetry/reviewer@v0.1.2`.
+  are `signetry-core @ git+https://github.com/Signetry/core@v0.8.0` and
+  `signetry-reviewer @ git+https://github.com/Signetry/reviewer@v0.3.0`.
 
 ## [0.1.0] — 2026-07-26
 
